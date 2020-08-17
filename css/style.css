@@ -468,11 +468,6 @@ section {
     font-size: 28px;
     line-height: 30px;
   }
-
-  .reason__text{
-    font-size: 14px;
-    line-height: 24px;
-  }
 }
 
 @media (max-width: 500px) {
@@ -506,12 +501,17 @@ section {
   }
   .title{
     font-size: 24px;
-    line-height: 30px;
+    line-height: 28px;
   }
 
-  .reason__text{
-    font-size: 12px;
-    line-height: 16px;
+  body{
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .statictics{
+    display: block;
+    margin-top: 50px;
   }
 }
 
