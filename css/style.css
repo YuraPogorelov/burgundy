@@ -470,7 +470,7 @@ section {
   }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 720px) {
   .photo__slider {
     display: none;
   }
