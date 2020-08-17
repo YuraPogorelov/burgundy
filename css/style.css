@@ -461,12 +461,18 @@ section {
     text-align: center;
     margin: 20px 10px;
   }
-  .reason__title{
+  .reason__title {
     padding-bottom: 10px;
   }
-  .title{
+  .title {
     font-size: 28px;
     line-height: 30px;
+  }
+}
+
+@media (max-width: 700px) {
+  .photo__slider {
+    display: none;
   }
 }
 
@@ -496,23 +502,25 @@ section {
     text-align: center;
     margin: 20px 10px;
   }
-  .reason__title{
+  .reason__title {
     padding-bottom: 10px;
   }
-  .title{
+  .title {
     font-size: 24px;
     line-height: 28px;
   }
 
-  body{
+  body {
     font-size: 14px;
     line-height: 24px;
   }
 
-  .statictics{
+  .statictics {
     display: block;
     margin-top: 50px;
   }
+
+ 
 }
 
 @media (min-width: 1024px) {
